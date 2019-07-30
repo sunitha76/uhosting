@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+}
+#product-overview{
+    background:url('./images/freedom1.jpg');
+    background-repeat: no-repeat; 
+    color:white;
+    border-style:solid;
+    border-color:black;
+    border-width:10px;
+    width:100%;
+    height:700px;
+    box-sizing:border-box;  
+
+
+}
+.section-title{
+    color:green;
+}
+#product-overview h1 {
+    color:white;
+    font-family:'Anton',sans-serif;
+}
+.main-header {
+    width:100%;
+    background:green;
+    padding:8px 16px;
+}
+.main-nav_item{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.main-nav-item{
+    display:inline-block;
+    margin:0 16px;
+}
+.main-nav_item a{
+    text-decoration: none;
+    color:green;
+    font-weight:bold;
+    padding:3px 0;
+}
+.main-nav_item a:hover,
+.main-nav_item a:active{
+    color:white;
+    border-bottom:5px solid white;
+}
